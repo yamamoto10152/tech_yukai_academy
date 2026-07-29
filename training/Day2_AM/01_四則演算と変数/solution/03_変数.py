@@ -1,6 +1,6 @@
 """
 Day2: 変数（教材参考）
-実行: python training/day02_am/if/solution/03_変数.py
+実行: python training/Day2_AM/01_四則演算と変数/solution/03_変数.py
 """
 
 # 変数は名前のついた箱。= は「右の値を左に入れる」
