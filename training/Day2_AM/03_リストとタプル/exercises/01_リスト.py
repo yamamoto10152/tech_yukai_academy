@@ -9,8 +9,8 @@
 - 追加: foods.append("値")
 """
 
-# ① 自分の好きな食べ物を3つリストに入れよう
-foods = 
+# TODO: 自分の好きな食べ物を3つリストに入れよう
+
 
 # TODO: print(foods)
 
