@@ -18,6 +18,4 @@ price = "1000"
 
 # TODO: print(int(price) * 2)
 
-# ③ f文字列でも書いてみよう
 
-# TODO: print(f"私は{age}歳です")
