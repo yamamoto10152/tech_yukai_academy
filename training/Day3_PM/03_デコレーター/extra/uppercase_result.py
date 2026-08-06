@@ -17,7 +17,6 @@ F = TypeVar("F", bound=Callable[..., str])
 
 def uppercase(func: F) -> F:
     # TODO: 実装
-    raise NotImplementedError("追加問題を実装してください")
 
 
 @uppercase
@@ -26,5 +25,4 @@ def greet(name: str) -> str:
 
 
 if __name__ == "__main__":
-    # 実装後: print(greet("taro"))  → "HELLO, TARO"
-    pass
+    print(greet("taro"))

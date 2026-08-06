@@ -18,4 +18,4 @@ def format_today() -> None:
 
 
 if __name__ == "__main__":
-  format_today()
+    format_today()
