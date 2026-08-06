@@ -15,8 +15,7 @@ import datetime
 
 
 def format_today() -> None:
-    raise NotImplementedError("追加問題を実装してください")
 
 
 if __name__ == "__main__":
-    format_today()
+  format_today()
