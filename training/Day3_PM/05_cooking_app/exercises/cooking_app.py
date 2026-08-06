@@ -26,7 +26,6 @@ def cooking_timer(func: F) -> F:
     """
 
     def wrapper(*args: Any, **kwargs: Any) -> Any:
-        raise NotImplementedError("演習: cooking_timer を実装してください")
 
     return wrapper  # type: ignore[return-value]
 
@@ -35,12 +34,10 @@ class SimpleDish:
     """TODO: 料理名を持ち、cook() で調理開始と完成を表示するクラス"""
 
     def __init__(self, name: str | None = None) -> None:
-        raise NotImplementedError("演習: SimpleDish.__init__")
 
     @cooking_timer
     def cook(self) -> None:
         # TODO: 料理名を使って「=== ○○ を調理します ===」と「完成！」を表示する
-        raise NotImplementedError("演習: SimpleDish.cook")
 
 
 def load_recipe_lines(filepath: str) -> list[str]:
@@ -50,7 +47,6 @@ def load_recipe_lines(filepath: str) -> list[str]:
       - with open(filepath, encoding='utf-8') as f: が推奨
       - 呼び出し側で try-except FileNotFoundError する想定
     """
-    raise NotImplementedError("演習: load_recipe_lines を実装してください")
 
 
 def main() -> None:

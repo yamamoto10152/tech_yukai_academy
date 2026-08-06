@@ -37,6 +37,4 @@ def sample_add(a: int, b: int) -> int:
 
 
 if __name__ == "__main__":
-    # 実装後にコメントを外して確認
-    # print(sample_add(2, 3))
-    print("log_calls を実装してから sample_add(2, 3) を呼び出してください")
+    print(sample_add(2, 3))

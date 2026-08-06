@@ -1,4 +1,5 @@
 ﻿# cooking_app/exercises/cooking_app.py の演習用サンプル（行ごとに読み込む想定）
+オムレツ
 材料: 卵 2個
 材料: 牛乳 100ml
 手順: ボウルで混ぜる
