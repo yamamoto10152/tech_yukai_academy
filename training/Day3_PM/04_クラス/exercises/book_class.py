@@ -20,13 +20,10 @@ class Book:
 
     def __init__(self, title: str, author: str, price: int) -> None:
         # TODO: 3つの属性を self に保存
-        raise NotImplementedError("演習: __init__ を実装してください")
 
     def show_info(self) -> None:
         # TODO: f"『{self.title}』 / 著者: {self.author} / 価格: {self.price}円"の形で表示
-        raise NotImplementedError("演習: show_info を実装してください")
 
-print(2)
 
 if __name__ == "__main__":
     # b = Book("Python入門", "山田", 1980)
