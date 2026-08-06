@@ -9,18 +9,22 @@
 
 # ① 自分のプロフィールを辞書で作ってみよう
 profile = {
-    "name": "〇〇",
-    "age": 〇〇,
-    "hobby": "〇〇",
+    "name": ,
+    "age": ,
+    "hobby": ,
 }
+print(profile)
 
 # TODO ②: Keyを指定して情報を取り出してみよう
 # print(f'名前：{profile["name"]}')
 # print(f'趣味：{profile["hobby"]}')
 
+
+
 # TODO ③: 新しい項目を追加してみよう
 # profile["dept"] = "〇〇部"
 # print(profile)
+
 
 # TODO ④: items()とfor文で全項目を表示してみよう
 # for key, value in profile.items():
