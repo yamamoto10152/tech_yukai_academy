@@ -32,14 +32,14 @@ def cooking_timer(func: F) -> F:
 
 
 class SimpleDish:
-    """TODO: 名前・材料・（任意で）手順リストを持ち、cook() で表示するクラス"""
+    """TODO: 料理名を持ち、cook() で調理開始と完成を表示するクラス"""
 
-    def __init__(self, name: str, ingredients: list[str], steps: list[str] | None = None) -> None:
+    def __init__(self, name: str | None = None) -> None:
         raise NotImplementedError("演習: SimpleDish.__init__")
 
     @cooking_timer
     def cook(self) -> None:
-        # TODO: 手順を表示（time.sleep(0.2) などで「調理っぽさ」も演出してよい）
+        # TODO: 料理名を使って「=== ○○ を調理します ===」と「完成！」を表示する
         raise NotImplementedError("演習: SimpleDish.cook")
 
 
@@ -55,7 +55,8 @@ def load_recipe_lines(filepath: str) -> list[str]:
 
 def main() -> None:
     """TODO: SimpleDish のデモと、ファイル読込の try-except を組み合わせる。"""
-    # TODO: SimpleDish を作って cook() を呼ぶ
+    # TODO: input() で料理名を受け取り、SimpleDish を作って cook() を呼ぶ
+    # 入力メッセージ: 「作る料理を入力してください：」
     # TODO: load_recipe_lines(...) を try-except で呼ぶ
     # ヒント: 同じフォルダに recipe_sample.txt がある
     #   p = Path(__file__).with_name("recipe_sample.txt")

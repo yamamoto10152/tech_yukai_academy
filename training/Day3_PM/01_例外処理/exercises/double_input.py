@@ -18,11 +18,11 @@ def exercise_double_input() -> None:
     user_input = input("数値を入力してください: ")
 
     # TODO: try / except で数値化し、2倍した値を print する
-    try:
+    XXX:
         n = int(user_input)
         # TODO: n * 2 を表示
         pass
-    except ValueError:
+    XXX ValueError:
         print("正しい数値を入力してください")
 
 

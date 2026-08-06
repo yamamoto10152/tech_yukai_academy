@@ -23,7 +23,7 @@ class Book:
         raise NotImplementedError("演習: __init__ を実装してください")
 
     def show_info(self) -> None:
-        # TODO: タイトル・著者・価格を読みやすく表示
+        # TODO: f"『{self.title}』 / 著者: {self.author} / 価格: {self.price}円"の形で表示
         raise NotImplementedError("演習: show_info を実装してください")
 
 print(2)

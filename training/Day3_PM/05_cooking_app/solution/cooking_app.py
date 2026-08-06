@@ -23,21 +23,12 @@ def cooking_timer(func: F) -> F:
 
 
 class SimpleDish:
-    def __init__(self, name: str, ingredients: list[str], steps: list[str] | None = None) -> None:
+    def __init__(self, name: str| None = None) -> None:
         self.name = name
-        self.ingredients = ingredients
-        self.steps = steps or []
 
     @cooking_timer
     def cook(self) -> None:
         print(f"=== {self.name} を調理します ===")
-        print("材料:")
-        for ing in self.ingredients:
-            print(f"  - {ing}")
-        print("手順:")
-        for i, step in enumerate(self.steps, start=1):
-            print(f"  {i}. {step}")
-            time.sleep(0.2)
         print("完成！")
 
 
@@ -47,11 +38,7 @@ def load_recipe_lines(filepath: str) -> list[str]:
 
 
 def main() -> None:
-    dish = SimpleDish(
-        "オムレツ",
-        ["卵 2個", "牛乳 100ml"],
-        ["ボウルで混ぜる", "弱火で加熱する"],
-    )
+    dish = SimpleDish(input("作る料理を入力してください："))
     dish.cook()
 
     recipe_path = Path(__file__).with_name("recipe_sample.txt")
