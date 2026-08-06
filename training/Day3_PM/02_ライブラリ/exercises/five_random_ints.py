@@ -17,7 +17,6 @@ import random
 
 def exercise_five_random_ints() -> None:
     # TODO: for _ in range(5): でループし、random.randint(1, 100) を print
-    raise NotImplementedError("演習を実装してからこの行を削除してください")
 
 
 if __name__ == "__main__":

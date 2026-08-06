@@ -27,7 +27,6 @@ def log_calls(func: F) -> F:
     def wrapper(*args: Any, **kwargs: Any) -> Any:
         # TODO: f"{func.__name__}関数が実行されました" のように表示
         # TODO: そのあと func(*args, **kwargs) を return する
-        raise NotImplementedError("演習: log_calls の中身を実装してください")
 
     return wrapper  # type: ignore[return-value]
 
